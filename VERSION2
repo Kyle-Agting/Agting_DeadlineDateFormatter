@@ -1,0 +1,15 @@
+months = ["January", "February", "March", "April",
+"May", "June", "July", "August",
+"September", "October", "November", "December"
+]
+Eventtitle = input("What is the title of the event? ")
+Year = input("What year is the event? ")
+Month = input("What month is the event? ")
+Day = input("What day is the event? ")
+Weekday = input("What day of the week is the event? ")
+print ("Event: ", Eventtitle.upper())
+print ("Date: ", months[int(Month) - 1].capitalize(), Day,",", Year)
+print ("Year: ", Year)
+print("Month:", months[int(Month) - 1].capitalize())
+print ("Day: ", Day)
+print ("Weekday: ", Weekday.capitalize())
